@@ -2,14 +2,16 @@
 
 menu:
   主页: /
-  随笔: /tags/随笔/
+  文章列表: /archives
+  三国闯关杀: /sgs
+  # 随笔: /tags/随笔
 
 # SubNav
 subnav:
-  github: "#"
-  weibo: "#"
-  rss: "#"
-  zhihu: "#"
+  github: "https://github.com/acshiryu/"
+  weibo: "http://weibo.com/acshiryu"
+  rss: "/atom.xml"
+  #zhihu: "#"
   #qq: "#"
   #weixin: "#"
   #jianshu: "#"
@@ -37,7 +39,7 @@ excerpt_link: more
 # 文章卡片右下角常驻链接，不需要请设置为false
 show_all_link: '展开全文'
 # 数学公式
-mathjax: false
+mathjax: true
 # 是否在新窗口打开链接
 open_in_new: false
 
@@ -64,11 +66,11 @@ top: true
 
 # Miscellaneous
 baidu_analytics: ''
-google_analytics: ''
-favicon: /favicon.png
+google_analytics: 'UA-84045914-1'
+favicon: /assets/website/favicon.png
 
 #你的头像url
-avatar:
+avatar: /assets/website/avatar.png
 
 #是否开启分享
 share_jia: true
@@ -120,11 +122,8 @@ smart_menu:
   aboutme: '关于我'
 
 friends:
-  友情链接1: http://localhost:4000/
-  友情链接2: http://localhost:4000/
-  友情链接3: http://localhost:4000/
-  友情链接4: http://localhost:4000/
-  友情链接5: http://localhost:4000/
-  友情链接6: http://localhost:4000/
+  weibo: "http://weibo.com/acshiryu"
+  github: "https://github.com/acshiryu/"
 
-aboutme: 很惭愧<br><br>只做了一点微小的工作<br>谢谢大家
+
+aboutme: 小龙少，年二十有二。始从文，连考而不中。遂习武，练武场上发一矢，中鼓吏，逐之出。改学IT，自建一变量，用之，烫烫烫烫烫烫烫烫烫烫！
